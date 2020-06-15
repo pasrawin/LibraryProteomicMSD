@@ -105,12 +105,19 @@ if defParams_:
 # define data
 defData_ = True
 if defData_:
-    msconvert_file = 'Example_protNMF_Ecoli_msconvert.pkl'
+    msconvert_file = 'Example_protNMF_Ecoli_msconvert.txt'
+    msconvert_list = ['Example_protNMF_Ecoli_msconvert1.txt','Example_protNMF_Ecoli_msconvert2.txt']
     mascot_file = 'Example_protNMF_Ecoli_mascot.xlsx' #combine with correct time
     insilico_file = 'Example_protNMF_Ecoli_insilico.xlsx'
     output_file = 'Example_protNMF_Ecoli_output' #filename
     
 print '1 msconvert processing'
+with open(msconvert_file, "wb") as outfile:
+    for f in msconvert_list:
+        with open(f, "rb") as infile:
+            outfile.write(infile.read())
+outfile.close()
+
 if msconvert_file[-3:] == 'pkl':
     Vdata_file = msconvert_file
 else:
