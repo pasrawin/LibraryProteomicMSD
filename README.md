@@ -5,7 +5,7 @@ The extension of https://github.com/pasrawin/ProteomicNMF/
 Library searching has been extensively developed to improve the identification speed, accuracy, and sensitivity. We applied proteomic NMF with a library-based dictionary for proteome-scale data. 
 
 ## Requirements
-Our proteomic NMF (protNMF) was written in Python 2.7 and tested on Window systems.
+Proteomic NMF (protNMF) was written in Python 2.7 and tested on Window systems.
 #### Dependencies
 * division from future, numpy, pandas, scipy, math, collections, itertools, sklearn, gc, and pyteomics
 
