@@ -1,5 +1,5 @@
 # Non-negative matrix decomposition for proteomic mass spectrogram using a library-based dictionary
-The extension of https://github.com/pasrawin/ProteomicMSD/
+The proteome-scale application of https://github.com/pasrawin/ProteomicMSD/
 
 ## Overview
 Library searching has been extensively developed to improve the identification speed, accuracy, and sensitivity. We applied proteomic MSD with peptide detectability prior knowledge as the concept of a library-based dictionary for proteome-scale data. 
@@ -32,11 +32,11 @@ Proteomic Mass Spectrogram Decomposition (protMSD) was written in Python 2.7 and
     * The mass spectrograms from different instruments and proteomic experiments provide different features. In order to obtain an optimal result from protMSD, we strongly suggest that the parameters should be carefully set for each observed mass spectrogram. 
     * The *m/z* range, retention time range, smoothing window and shift, bins, *in silico* digestion criteria, number of best peaks reported etc. can be modified easily by replacing default values here.
 3. Run ```python mNMF00_handler.py```
-    * Yor command prompt will show protNMF process from 1 to 10
+    * Yor command prompt will show protMSD process from 1 to 10
 
 ## Benchmark Datasets
 The MS raw data were deposited at the ProteomeXchange Consortium via jPOST partner repository with identifier [JPST000765](https://repository.jpostdb.org/preview/20008084085e7091aa70184). Currently, available for reviewers only. Please use the access key in Supplementary Information).
 
 ## Support
-If you have any questions about mNMF, please contact Pasrawin Taechawattananant (pasrawin@gmail.com), Kazuyoshi Yoshii (yoshii@kuis.kyoto-u.ac.jp), or Yasushi Ishihama (yishiham@pharm.kyoto-u.ac.jp)
+If you have any questions about protMSD, please contact Pasrawin Taechawattananant (pasrawin@gmail.com), Kazuyoshi Yoshii (yoshii@kuis.kyoto-u.ac.jp), or Yasushi Ishihama (yishiham@pharm.kyoto-u.ac.jp)
 
